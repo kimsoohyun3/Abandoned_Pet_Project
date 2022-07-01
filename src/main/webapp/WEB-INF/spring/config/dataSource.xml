@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xsi:schemaLocation="http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+		
+	<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+		<property name="url" value="jdbc:oracle:thin:@db20220625043939_high?TNS_ADMIN=/var/lib/tomcat9/webapps/Wallet_DB20220625043939file" />
+		<property name="username" value="admin" />
+		<property name="password" value="a125354861A~" />
+	</bean>
+	
+	<bean class="org.mybatis.spring.SqlSessionFactoryBean" id="sqlSessionFactory">
+		<property name="dataSource" ref="dataSource" />
+		<property name="configLocation" value="/WEB-INF/mybatis/config.xml" />
+		<property name="mapperLocations" value="/WEB-INF/mybatis/mapper/*.xml" />
+	</bean>
+	<bean class="org.mybatis.spring.SqlSessionTemplate" id="sqlSession">
+		<constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory" />
+	</bean>
+</beans>
