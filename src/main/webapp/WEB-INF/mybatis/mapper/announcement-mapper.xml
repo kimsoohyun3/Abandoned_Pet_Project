@@ -12,12 +12,11 @@
 		<![CDATA[
 		select announcement_no, announcement_title, announcement_date, announcement_hits
 		from (
-		select rownum as rn, announcement_no, announcement_title, announcement_date, announcement_hits
+		select rownum rn, announcement_no, announcement_title, announcement_date, announcement_hits
 		from announcement
-		where rownum <= #{currentPageNum} * #{amount}
 		order by announcement_no desc
 		)
-		where rn > (#{currentPageNum} - 1) * #{amount}
+		where rn > (#{currentPageNum} - 1) * #{amount} and rn <= #{currentPageNum} * #{amount}
 		]]>
 	</select>
 
