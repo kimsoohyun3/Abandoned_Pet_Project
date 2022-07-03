@@ -37,41 +37,15 @@
 
 <br>
 
-|제목|내용|
+ ## 🔧기능 구현
+|회원가입|작업 전|
 |------|---|
-|https://user-images.githubusercontent.com/108200179/177039008-26f390cf-d666-4bd8-8751-ba13e67ae061.mp4|공백|
-|공백|공백|
-|공백|공백|
+|![111](https://user-images.githubusercontent.com/108200179/177039710-0b4dda93-a69a-4158-905c-2ebcad915c69.gif)|작업 전|
 
-## 구현 기능
+|작업 전|프로필 조회 및 변경|
+|------|---|
+|작업 전|![2222](https://user-images.githubusercontent.com/108200179/177040425-f01840fe-4b8a-4ca1-bd68-e3124549616b.gif)|
 
-### 기능 1
-
-![gif1](https://user-images.githubusercontent.com/108200179/177028802-b3b1d434-31ff-4833-b3de-319cd5a4dc51.gif)
-
-### 기능 2
-
-### 기능 3
-
-### 기능 4
-
-<br>
-
-## 배운 점 & 아쉬운 점
-
-<p align="justify">
-
-</p>
-
-<br>
-
-## 라이센스
-
-MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
-
-<!-- Stack Icon Refernces -->
-
-[js]: /images/stack/javascript.svg
-[ts]: /images/stack/typescript.svg
-[react]: /images/stack/react.svg
-[node]: /images/stack/node.svg
+|공지사항 조회, 등록, 수정, 삭제(or 다중삭제), 페이징처리|작업 전|
+|------|---|
+|![3333](https://user-images.githubusercontent.com/108200179/177040428-72cc5f63-d864-454d-87a9-625570d1f002.gif)|작업 전|
