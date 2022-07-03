@@ -39,8 +39,8 @@
 
 |제목|내용|
 |------|---|
-|![회원가입GIF](https://user-images.githubusercontent.com/108200179/177038365-a8a0c755-28f7-4c75-a2ed-8f745111bba2.gif))|![프로필변경GIF](https://user-images.githubusercontent.com/108200179/177038417-87365353-1623-4de8-a6aa-5e82b25a170a.gif)|
-|공백|![프로필변경GIF](https://user-images.githubusercontent.com/108200179/177038209-80bbc750-a061-44a8-8fc1-691fcc57b54f.gif)|
+|https://user-images.githubusercontent.com/108200179/177039008-26f390cf-d666-4bd8-8751-ba13e67ae061.mp4|공백|
+|공백|공백|
 |공백|공백|
 
 ## 구현 기능
