@@ -20,7 +20,7 @@
 |------|---|
 |![111](https://user-images.githubusercontent.com/108200179/177039710-0b4dda93-a69a-4158-905c-2ebcad915c69.gif)|![444](https://user-images.githubusercontent.com/108200179/177088647-de52244c-5881-4d5c-ae2a-359269a0418d.gif)|
 
-|프로필 조회 및 변경|공지사항 조회, 등록, 수정, 삭제(or 다중삭제), 페이징처리|
+|프로필 조회 및 변경|공지사항 조회, 등록 수정 삭제(관리자 ID), 페이징처리|
 |------|---|
 |![2222](https://user-images.githubusercontent.com/108200179/177089392-6b07b7df-0e5b-427c-876a-d6f30317d509.gif)|![3333](https://user-images.githubusercontent.com/108200179/177089399-5b9cd1ac-4263-405f-ae12-6a410e81dd63.gif)|
 <br>
