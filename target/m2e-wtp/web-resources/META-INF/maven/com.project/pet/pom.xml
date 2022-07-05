@@ -220,6 +220,7 @@
 	</dependencyManagement>
 
 	<build>
+	<defaultGoal>install</defaultGoal>
 		<plugins>
 			<plugin>
 				<artifactId>maven-eclipse-plugin</artifactId>
@@ -255,6 +256,6 @@
 					<mainClass>org.test.int1.Main</mainClass>
 				</configuration>
 			</plugin>
-		</plugins>
+		</plugins>	
 	</build>
 </project>

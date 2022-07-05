@@ -21,8 +21,8 @@ public class NaverLoginBO {
 	// 인증 과정에 대한 구분값
 	private final static String CLIENT_SECRET = "gK_tNRqLVD";
 	// 네이버 로그인 인증 결과를 전달받을 Callback URL
-	private final static String REDIRECT_URI = "http://abandonedpet.co.uk:8080/callback";
-//	private final static String REDIRECT_URI = "http://localhost:8081/callback";
+	private final static String REDIRECT_URI = "http://www.abandonedpet.co.uk:8080/callback";
+//	private final static String REDIRECT_URI = "http://localhost:8082/callback";
 	// 애플리케이션이 생성한 상태 토큰
 	private final static String SESSION_STATE = "oauth_state";
 	// 프로필 조회 API URL

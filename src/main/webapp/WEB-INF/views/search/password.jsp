@@ -103,7 +103,7 @@
 			phoneBlankCheck = true;
 		}
 
-		// 통합 유효성 검사 후 이메일 찾기
+		// 통합 유효성 검사 후 비밀번호 찾기
 		if (emailBlankCheck && nameBlankCheck&& phoneBlankCheck) {
 			var data = {
 				email: email,

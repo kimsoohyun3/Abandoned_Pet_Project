@@ -52,7 +52,7 @@ public class AnnouncementController {
 	}
 
 	// 공지사항 등록
-	@RequestMapping("/insertAnnouncement")
+	@PostMapping("/insertAnnouncement")
 	public String insertAnnouncement(@ModelAttribute AnnouncementVo vo, HttpSession session, RedirectAttributes re) {
 		// 서버에서 한번 더 관리자인지 판별
 		if (session.getAttribute("auth") != null) {
@@ -123,7 +123,7 @@ public class AnnouncementController {
 	}
 
 	// 공지사항 수정
-	@RequestMapping("/alterAnnouncement")
+	@PostMapping("/alterAnnouncement")
 	public String alterAnnouncement(@ModelAttribute AnnouncementVo vo, @ModelAttribute PagingProcessingVo pagingProcessingVo, HttpSession session, RedirectAttributes re) {
 		// 서버에서 한번 더 관리자인지 판별
 		if (session.getAttribute("auth") != null) {

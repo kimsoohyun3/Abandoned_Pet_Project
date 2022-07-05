@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="search">
+	<!-- 이메일 존재여부 -->
+	<select id="emailCheck" resultType="int">
+		select count(*)
+		from member
+		where name = #{name} and phone = #{phone}
+	</select>
+
+	<!-- 이메일 찾기 -->
+	<select id="email" resultType="String">
+		select email
+		from member
+		where name = #{name} and phone = #{phone}
+	</select>
+
+	<!-- 비밀번호 존재여부 -->
+	<select id="pswdCheck" resultType="int">
+		select count(*)
+		from member
+		where email = #{email} and name = #{name} and phone = #{phone}
+	</select>
+
+	<!-- 비밀번호 찾기 -->
+	<update id="pswd">
+		update member
+		set pswd = #{pswd}
+		where email = #{email} and name = #{name} and phone = #{phone}
+	</update>
+</mapper>
