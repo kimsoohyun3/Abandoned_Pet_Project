@@ -1,4 +1,4 @@
-# 🐕유기동물 및 반려견과 사람을 이어주는 플랫폼 서비스(Abandoned_Pet)
+# 🐕유기동물 및 반려견과 사람을 이어주는 커뮤니티(Abandoned_Pet)
 
 <p align="center">
   <br>
