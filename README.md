@@ -11,10 +11,7 @@
 - Spring
 - MyBatis
 - JSP
-- JavaScript
-- jQuery
-- HTML5
-- CSS
+- JavaScript, jQuery, HTML5, CSS
 
 <br/>
 
